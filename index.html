@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ru">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"/><meta name="theme-color" content="#0c171b"/><meta name="apple-mobile-web-app-capable" content="yes"/><title>ONE / FOOTBALL • AI LAB 0.4</title>
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"/><meta name="theme-color" content="#0c171b"/><meta name="apple-mobile-web-app-capable" content="yes"/><title>ONE / FOOTBALL • AI LAB 0.5</title>
 <style>:root{--bg:#0d171b;--panel:#142429;--border:#304549;--bright:#eff4ed;--muted:#9daeb0;--gold:#e7c875;--green:#80c8aa;--orange:#e8a969}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--bright);font:500 14px/1.42 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}body{user-select:none;-webkit-tap-highlight-color:transparent}#app{max-width:1660px;margin:auto;padding:14px 19px 8px}.top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:5px 0 15px;border-bottom:1px solid #304044}.brand{display:flex;align-items:center;gap:10px;min-width:220px}.brand-mark{font-size:30px;color:var(--green)}.brand b{font-size:16px;letter-spacing:.06em}.brand em{font-style:normal;color:var(--green)}.brand small{display:block;font-size:9px;color:var(--muted);letter-spacing:.18em;margin-top:3px}.score{display:flex;align-items:center;gap:13px;position:relative;padding-bottom:15px}.score span{font-size:12px;letter-spacing:.08em;color:#e8eadd;font-weight:800}.score strong{font-size:28px;letter-spacing:.09em;font-variant-numeric:tabular-nums}.score small{position:absolute;bottom:-1px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--green);font-variant-numeric:tabular-nums}.head-actions{display:flex;gap:8px}.pill{border:1px solid #49615a;color:#e4ebe6;background:#263c38;border-radius:8px;padding:9px 12px;font-weight:700;cursor:pointer}.pill.muted{background:#19292d}.layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:15px;align-items:stretch;padding-top:15px}.pitch-shell{border:1px solid var(--border);background:#13272a;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;min-width:0}.pitch-toolbar{min-height:37px;display:flex;align-items:center;gap:17px;padding:0 13px;font-size:11px;color:#d4e5dc;background:#172a2c}.live{font-size:10px;letter-spacing:.08em;font-weight:900;color:#e3f6dc}.pulse{display:inline-block;width:6px;height:6px;border-radius:50%;background:#70cf89;box-shadow:0 0 6px #70cf89;margin-right:5px}.tbar-right{margin-left:auto;color:#7eaaa1;white-space:nowrap}.canvas-frame{position:relative;background:#163b2a;flex:1;aspect-ratio:1000/600;min-height:0;touch-action:none}canvas{display:block;width:100%;height:100%;touch-action:none}.pitch-footer{display:flex;gap:20px;padding:9px 14px;font-size:11px;color:#a3bbb0;background:#182c2c}.pitch-footer span:nth-child(1){color:var(--gold)}.pitch-footer span:nth-child(3){color:var(--orange)}.pitch-footer #fps{margin-left:auto;color:#689c89}.sidebar{display:flex;flex-direction:column;gap:12px;min-height:0}.panel{border:1px solid var(--border);border-radius:11px;background:var(--panel);padding:17px 16px}.section-head{display:flex;align-items:start;justify-content:space-between;margin-bottom:18px}.section-head small{font-size:9px;letter-spacing:.18em;color:#78a899;font-weight:700}.section-head h2{font-size:16px;margin:3px 0 0;letter-spacing:-.015em}.number{border:1px solid #596c61;color:#dfe4d2;font-weight:700;border-radius:6px;padding:5px 8px}.field-label{display:block;color:#c0ccca;font-size:12px;margin-bottom:8px}.segmented{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:#0d1e22;border-radius:8px;padding:3px}.segmented button{border:0;border-radius:5px;padding:9px 0;background:transparent;color:#8fa6a0;font-size:11px;font-weight:700;cursor:pointer}.segmented button.active{background:#2f5f4e;color:#f0fae6}.param{margin-top:18px}.param label{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:#d9e6e0}.param label strong{font-size:11px;color:var(--green);text-align:right}.param input{display:block;margin:13px 0 3px;width:100%;accent-color:#6fc09b;cursor:pointer}.minmax{display:flex;justify-content:space-between;color:#7c9997;font-size:10px}.stamina{border:1px solid #3e6054;border-radius:8px;margin-top:17px;padding:10px}.stamina>div:first-child{display:flex;justify-content:space-between;font-size:10px;color:#b5c6bc;letter-spacing:.07em}.stamina strong{color:#d7eedc}.meter,.qte-timer{height:7px;border-radius:8px;background:#203b35;overflow:hidden;margin-top:9px}.meter>div{height:100%;width:100%;background:#81c89e;transition:width .4s}.events{display:flex;flex-direction:column;gap:7px;overflow:auto;max-height:230px;min-height:144px;scrollbar-color:#56786c #152b2c}.event{display:flex;gap:9px;padding:6px 0;border-bottom:1px solid #26393a}.event:last-child{border-bottom:0}.event time{min-width:34px;font-size:11px;color:#86bdac;font-weight:800}.event div{font-size:11.5px;color:#c8d9d1;line-height:1.35}.event.goal div{color:#fbdf85;font-weight:800}.event.red div{color:#f59d9d}.event.qte div{color:#9decc6}.event.yellow div{color:#f1d58a}.event-count{font-size:11px;color:#9faeac}.testing{padding-top:12px}.testing .section-head{margin-bottom:10px}.practice{display:flex;gap:7px}.practice button{flex:1;font-size:12px;border:1px solid #547063;border-radius:7px;padding:8px;background:#254539;color:#eef2e9;font-weight:700;cursor:pointer}.speed{display:flex;align-items:center;gap:4px;margin-top:13px}.speed span{flex:1;font-size:10px;color:#a3b5ac}.speed button{background:#1c3532;border:1px solid #34594b;color:#91b9a7;border-radius:5px;font-size:10px;padding:5px 7px;cursor:pointer}.speed button.active{background:#4c8265;color:white}.fine{display:block;color:#7d9b91;margin-top:9px;font-size:10px}.global-footer{display:flex;justify-content:space-between;gap:14px;color:#63847c;font-size:9px;padding:12px 0;letter-spacing:.03em}#qte{position:absolute;bottom:7%;left:50%;transform:translateX(-50%);width:min(78%,600px);min-height:140px;padding:14px 17px 13px;border:1px solid #d4bd74;border-radius:13px;background:rgba(9,30,27,.96);box-shadow:0 16px 50px #08120bdc;z-index:3;backdrop-filter:blur(4px)}#qte.hidden{display:none}.qte-top{display:flex;align-items:start;justify-content:space-between;gap:14px}.qte-top .eyebrow{display:block;color:#e4c87b;font-size:9px;font-weight:900;letter-spacing:.16em}.qte-top strong{display:block;font-size:20px}.qte-top small{display:block;color:#b7cfc2;font-size:11px;margin-top:3px}.timer{font-weight:900;font-size:20px;color:#e9d896;font-variant-numeric:tabular-nums}.qte-actions{display:flex;gap:8px;margin-top:11px}.qte-actions button{flex:1;border:1px solid #5b866b;border-radius:7px;background:#295241;color:#e6f4e7;font-size:12px;padding:9px 6px;font-weight:800;cursor:pointer}.qte-actions button.active{background:#e7c979;color:#13281b;border-color:#e7c979}.qte-timer{margin-top:12px;background:#49654d;height:5px}.qte-timer>div{height:100%;background:#e2c26a;width:100%}.bottom-info{position:absolute;bottom:3%;left:50%;transform:translateX(-50%);font-size:11px;max-width:85%;color:#e0f0e7;text-align:center;text-shadow:0 1px 4px #000b;pointer-events:none}.bottom-info.qte-open{display:none}#rotate{display:none}button:focus-visible,input:focus-visible{outline:2px solid #b6e7b3;outline-offset:3px}@media(max-width:1100px){.layout{grid-template-columns:minmax(0,1fr) 285px}.panel{padding:12px}.pitch-toolbar,.pitch-footer{font-size:9px}.section-head h2{font-size:14px}.global-footer{display:none}#qte{width:88%}}@media(max-width:850px) and (orientation:landscape){#app{padding:3px 7px}.top{padding:0 0 4px}.brand{min-width:150px}.brand-mark{font-size:20px}.brand b{font-size:12px}.brand small{font-size:7px}.score{gap:7px;padding-bottom:9px}.score span{font-size:8px}.score strong{font-size:19px}.score small{font-size:8px}.pill{font-size:10px;padding:5px}.layout{padding-top:5px;gap:5px;grid-template-columns:minmax(0,1fr) 232px}.pitch-toolbar{min-height:22px;padding:0 6px;font-size:8px;gap:5px}.tbar-right{display:none}.pitch-footer{padding:3px 6px;gap:8px;font-size:8px}.sidebar{gap:5px}.panel{padding:8px}.section-head{margin-bottom:5px}.section-head h2{font-size:11px}.section-head small{font-size:7px}.number{font-size:10px;padding:2px 4px}.field-label{font-size:9px;margin-bottom:3px}.segmented button{padding:4px 0;font-size:9px}.param{margin-top:7px}.param label{font-size:9px}.param label strong{font-size:9px}.param input{margin:5px 0 0}.minmax{font-size:8px}.stamina{margin-top:7px;padding:5px}.stamina>div:first-child{font-size:8px}.meter{margin-top:3px;height:4px}.events{max-height:91px;min-height:40px;gap:0}.event{padding:3px 0;gap:4px}.event time,.event div{font-size:9px}.highlights .section-head{margin-bottom:1px}.testing .section-head{margin-bottom:3px}.practice button{font-size:9px;padding:4px}.speed{margin-top:5px}.speed span{font-size:8px}.speed button{font-size:8px;padding:2px 4px}.fine{display:none}#qte{padding:8px 10px 6px;bottom:5%;min-height:0;width:94%}.qte-top strong{font-size:13px}.qte-top small{font-size:9px}.qte-actions{margin-top:5px}.qte-actions button{padding:7px 3px;font-size:10px}.qte-timer{margin-top:6px}.bottom-info{font-size:8px}}@media(max-width:650px) and (orientation:portrait){#app{display:none}#rotate{display:flex;position:fixed;inset:0;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:30px;background:#132724}#rotate strong{font-size:24px;color:#e9d995}#rotate p{color:#c6d7ce}}
 /* Keep the entire football pitch inside short iPhone landscape viewports. */
 @media(max-width:850px) and (orientation:landscape){
@@ -141,7 +141,7 @@
 <body>
 <div id="app">
 <header class="top">
-  <div class="brand"><span class="brand-mark">◉</span><div><b>ONE <em>/</em> FOOTBALL</b><small>AI LAB 0.4 · РЕШЕНИЯ ПРИ ВЛАДЕНИИ ТОЛЬКО ВАШИ</small></div></div>
+  <div class="brand"><span class="brand-mark">◉</span><div><b>ONE <em>/</em> FOOTBALL</b><small>AI LAB 0.5 · РЕШЕНИЯ ПРИ ВЛАДЕНИИ ТОЛЬКО ВАШИ</small></div></div>
   <div class="score"><span>СЕВЕР</span><strong id="score">0 : 0</strong><span>ОЛИМПИК</span><small id="clock">00:00</small></div>
   <div class="head-actions"><div class="speed"><span>Темп матча</span><button data-speed="0.25">¼×</button><button data-speed="0.5" class="active">½×</button><button data-speed="1">1×</button><button data-speed="2">2×</button></div><button id="pause" class="pill">Ⅱ Пауза</button><button id="reset" class="pill muted">↻ Новый матч</button></div>
 </header>
@@ -183,7 +183,8 @@
 </div>
 <div id="rotate"><strong>↻ Поверните iPhone</strong><p>Экспериментальный матч рассчитан на горизонтальный экран.</p></div>
 <script>
-/* ONE / FOOTBALL LAB 0.4 — continuous 5v5 simulation with live team commands. */
+
+/* ONE / FOOTBALL LAB 0.5 — keeper distribution and protected user possession. */
 (function(root, factory) {
   const Engine = factory();
   if (typeof module !== 'undefined' && module.exports) module.exports = Engine;
@@ -208,10 +209,10 @@
       players.push({id:team*5+idx,team,role:form.role,number:idx+1,idx,x,y:TOP+form.ny*(BOTTOM-TOP),vx:0,vy:0,heading:team?Math.PI:0,
        homeX:x,homeY:TOP+form.ny*(BOTTOM-TOP),targetX:x,targetY:TOP+form.ny*(BOTTOM-TOP),
        name:team===0&&idx===3?'ВАШ ИГРОК':lastNames[Math.floor(rand()*lastNames.length)],
-       stats:makeStats(rand,form.role),energy:100,yellow:0,red:false,action:'idle',brain:.6+rand()*.4,runUntil:0,runX:x,runY:TOP+form.ny*(BOTTOM-TOP),tackleCd:0,controlCd:0,hasBall:false,receiveBonus:0});
+       stats:makeStats(rand,form.role),energy:100,yellow:0,red:false,action:'idle',brain:.6+rand()*.4,runUntil:0,runX:x,runY:TOP+form.ny*(BOTTOM-TOP),tackleCd:0,controlCd:0,hasBall:false,receiveBonus:0,shieldUntil:0});
     }
     const userId=3;players[userId].stats={...players[userId].stats,pass:70,touch:69,shot:67,vision:73,dribble:70,stamina:74};
-    const g={version:'0.4.0',seed,rand,players,userId,clock:0,matchLength:5400,matchSpeed:12,score:[0,0],
+    const g={version:'0.5.0',seed,rand,players,userId,clock:0,matchLength:5400,matchSpeed:12,score:[0,0],
      ball:{x:W/2,y:H/2,z:0,vx:0,vy:0,vz:0,spin:0,holder:null,lastTeam:0,targetId:null,mode:'ground'},
      tactic:{zone:'center',mentality:0,intensity:2}, requestPassUntil:0,pressBoostUntil:0,coverUntil:0,userPromptAfter:0, qte:null,qteCooldown:0, events:[],stats:[{shots:0,passes:0,fouls:0,yellows:0,reds:0,poss:0},{shots:0,passes:0,fouls:0,yellows:0,reds:0,poss:0}],
      phase:'playing',restartTimer:0,attackStreak:0,second:0,goalFlash:0,totalQTE:0,debug:{interceptions:0,passAttempts:0,actions:0},
@@ -222,7 +223,11 @@
   function log(g,time,text,type='normal') {g.events.unshift({at:typeof time==='string'?time:Math.floor(g.clock/60)+'′',text,type});g.events.length=Math.min(28,g.events.length);}
   function nearest(g,team,pos,exclude=null,includeGK=true) {let best=null,near=Infinity; for(const p of g.players){if(p.team!==team||p.red||p.id===exclude||(!includeGK&&p.role==='gk'))continue;let d=dist(p,pos);if(d<near){near=d;best=p;}}return best;}
   function opponent(g,p){return nearest(g,1-p.team,p,null,false);}
-  function giveBall(g,p){const b=g.ball;b.holder=p.id;b.x=p.x+Math.cos(p.heading)*9;b.y=p.y+Math.sin(p.heading)*9;b.z=0;b.vx=0;b.vy=0;b.vz=0;b.spin=0;b.lastTeam=p.team;b.targetId=null;p.hasBall=true;p.brain=.65+g.rand()*.45;for(const q of g.players)if(q.id!==p.id)q.hasBall=false;
+  function giveBall(g,p,source='receive'){const b=g.ball;b.holder=p.id;b.x=p.x+Math.cos(p.heading)*9;b.y=p.y+Math.sin(p.heading)*9;b.z=0;b.vx=0;b.vy=0;b.vz=0;b.spin=0;b.lastTeam=p.team;b.targetId=null;p.hasBall=true;p.brain=p.role==='gk'?.18:.65+g.rand()*.45;
+    // A real touch needs a brief playable window. After a human tackle, allow time for a choice
+    // before an opponent may counter-tackle; the rest of the match continues normally.
+    p.shieldUntil=g.second+(p.id===g.userId?(source==='tackle'?3.3:2.5):.35);
+    for(const q of g.players)if(q.id!==p.id)q.hasBall=false;
     // The human ALWAYS receives direct control on first touch, regardless of the previous QTE cooldown.
     if(p.id===g.userId&&g.phase==='playing'){
       g.qte=null;g.qteCooldown=0;g.userPromptAfter=0;
@@ -268,6 +273,12 @@
       }
       return false;
     }
+    if(q.kind==='ball'&&g.ball.holder!==p.id){
+      // Make an interrupted action explicit rather than silently ignoring the button tap.
+      endQte(g);
+      log(g,null,'Потеряно владение: пас или удар уже нельзя выполнить','normal');
+      return false;
+    }
     if(q.kind==='ball'&&g.ball.holder===p.id){
       let tgt=vector&&Number.isFinite(vector.x)?{x:clamp(vector.x,LEFT-12,RIGHT+12),y:clamp(vector.y,TOP-10,BOTTOM+10)}:null;
       if(action==='pass'){
@@ -275,11 +286,12 @@
         mates.sort((a,b)=>{const ax=(a.x-p.x)*(p.team?-1:1)-dist(a,p)*.16;const bx=(b.x-p.x)*(p.team?-1:1)-dist(b,p)*.16;return bx-ax;});
         if(!tgt){const t=mates[0];tgt={x:t.x,y:t.y,playerId:t.id};}
         let nearestMate=null,near=30;for(const mate of mates){const d=dist(mate,tgt);if(d<near){nearestMate=mate;near=d;}}if(nearestMate)tgt.playerId=nearestMate.id;
-        kick(g,p,tgt,'pass',clamp(dist(p,tgt)/290,.72,1.23),false);log(g,null,'Вы отправили мяч в выбранную точку','qte');
+        if(!kick(g,p,tgt,'pass',clamp(dist(p,tgt)/290,.72,1.23),false))return false;
+        log(g,null,'Вы отправили мяч в выбранную точку','qte');
       } else if(action==='shot'){
         tgt=tgt||{x:RIGHT+8,y:GOAL_TOP+(GOAL_BOTTOM-GOAL_TOP)*g.rand()};
         if(p.team===1)tgt.x=LEFT-8;
-        kick(g,p,tgt,'shot',clamp(dist(p,tgt)/390,.88,1.25),false);
+        if(!kick(g,p,tgt,'shot',clamp(dist(p,tgt)/390,.88,1.25),false))return false;
       } else if(action==='dribble'){
         const dir=tgt?norm(tgt.x-p.x,tgt.y-p.y):{x:1,y:0};
         const foe=opponent(g,p), risk=foe?clamp((85-dist(p,foe))/85,0,1):0;
@@ -311,6 +323,7 @@
   }
   function attemptTackle(g,p,carrier,slide=false){
     if(!carrier||g.ball.holder!==carrier.id||p.red||p.tackleCd>0)return false;
+    if(g.second<carrier.shieldUntil)return false; // No instantaneous re-tackles after a successful touch.
     p.tackleCd=slide?2.2:1.1;
     const d=dist(p,carrier);const reach=slide?61:39;if(d>reach){log(g,null,p.name+': не успел вступить в отбор','normal');return false;}
     const quality=p.stats.tackle*.48+p.stats.position*.2+p.stats.speed*.15+15*(p.energy/100);
@@ -320,7 +333,7 @@
     const foulRate=clamp((slide?.24:.055)+(100-p.stats.discipline)*.0015+(100-p.energy)*.0006,.025,.52);
     const r=g.rand();
     if(r<foulRate){foul(g,p,carrier,slide);return true;}
-    if(r<foulRate+(1-foulRate)*success){giveBall(g,p);log(g,null,p.name+' выигрывает мяч в отборе','tackle');g.debug.interceptions++;return true;}
+    if(r<foulRate+(1-foulRate)*success){giveBall(g,p,'tackle');log(g,null,p.name+' выигрывает мяч в отборе','tackle');g.debug.interceptions++;return true;}
     p.controlCd=.45;log(g,null,p.name+' не сумел отобрать мяч','normal');return true;
   }
   // A tactical order affects the user's actual target every simulation tick, not just a UI label.
@@ -352,6 +365,11 @@
       p.targetX=p.team===0?LEFT+29:RIGHT-29;
       p.targetY=clamp(b.y,GOAL_TOP-23,GOAL_BOTTOM+23);
       if(carrier&&carrier.team!==p.team&&dist(p,carrier)<105){p.targetX=clamp(carrier.x,p.team===0?LEFT+15:RIGHT-115,p.team===0?LEFT+115:RIGHT-15);}
+      if(b.holder===p.id){
+        // In 0.4 this branch never called decideCarrier: a keeper could hold forever at the goal.
+        p.brain-=dt;
+        if(p.brain<=0){p.brain=.75+g.rand()*.35;decideCarrier(g,p);}
+      }
     }else if(b.holder===p.id){
       if(p.runUntil>g.second&&dist(p,{x:p.runX,y:p.runY})>14){p.targetX=p.runX;p.targetY=p.runY;}
       else{p.targetX=clamp(p.x+dir*80,LEFT+13,RIGHT-13);p.targetY=clamp(lerp(p.y,H/2,.035),TOP+15,BOTTOM-15);}
@@ -397,7 +415,7 @@
       }
     }
     pursue(g,p,dt);
-    if(!teamHasBall&&carrier&&carrier.team!==p.team&&p.tackleCd<=0&&dist(p,carrier)<31){
+    if(!teamHasBall&&carrier&&carrier.team!==p.team&&p.tackleCd<=0&&g.second>=carrier.shieldUntil&&dist(p,carrier)<31){
       if(p.id===g.userId){
         if(!g.qte&&g.qteCooldown<=0)setQte(g,'defense',p);
         // Requesting pressure is a real moving order, not an instant tackle.
@@ -422,6 +440,32 @@
     if(p.id===g.userId)return; // No fallback AI actions, even during cooldown or a missed QTE.
     const dir=p.team===0?1:-1,goalX=p.team===0?RIGHT+6:LEFT-6;
     const goalDist=Math.abs(goalX-p.x),near=opponent(g,p),pressure=near?dist(near,p):999;
+    if(p.role==='gk'){
+      // A goalkeeper cannot enter an endless hold-and-dribble loop at his goal.
+      // Choose a reachable field player with space and a clear passing lane. If all short
+      // options are blocked, clear into the open half rather than pass back to himself.
+      const options=g.players.filter(t=>t.team===p.team&&!t.red&&t.id!==p.id&&t.role!=='gk')
+        .map(t=>{
+          const foe=nearest(g,1-p.team,t,null,false);
+          const space=foe?dist(foe,t):140;
+          const lane=laneRisk(g,p,t);
+          const advance=(t.x-p.x)*dir;
+          const score=advance*.09+Math.min(130,space)*.40-lane*75+g.rand()*6;
+          return {t,score,lane};
+        }).sort((a,b)=>b.score-a.score);
+      const best=options[0];
+      if(best&&best.score>-18){
+        const t=best.t;
+        const target={x:clamp(t.x+t.vx*.18,LEFT+15,RIGHT-15),y:clamp(t.y+t.vy*.18,TOP+15,BOTTOM-15),playerId:t.id};
+        kick(g,p,target,'pass',clamp(dist(p,target)/290,.85,1.3),best.lane>.45);
+        log(g,null,'Вратарь начинает атаку передачей','normal');
+      }else{
+        const target={x:clamp(p.x+dir*380,LEFT+50,RIGHT-50),y:clamp(H/2+(g.rand()-.5)*130,TOP+60,BOTTOM-60)};
+        kick(g,p,target,'pass',1.3,true);
+        log(g,null,'Вратарь выбивает мяч из опасной зоны','normal');
+      }
+      return;
+    }
     const teammates=[];
     for(const mate of g.players){if(mate.team!==p.team||mate.id===p.id||mate.red)continue;
       const d=dist(p,mate), advance=(mate.x-p.x)*dir, obstruction=laneRisk(g,p,mate);
@@ -436,12 +480,18 @@
       kick(g,p,{x:goalX,y:clamp(H/2+(g.rand()-.5)*65,GOAL_TOP+9,GOAL_BOTTOM-9)},'shot',1.0+g.rand()*.18);
       return;
     }
-    const needPass=pressure<75 || (p.runUntil<=g.second && g.rand()<.57);
-    if(best&&best.utility>16&&needPass){
+    const dangerZone=(p.team===0?p.x-LEFT:RIGHT-p.x)<165;
+    const needPass=pressure<92 || dangerZone || (p.runUntil<=g.second && g.rand()<.57);
+    if(best&&best.utility>(dangerZone?-25:16)&&needPass){
       const t=best.mate,d=dist(p,t);
       const target={x:clamp(t.x+t.vx*.22,LEFT+5,RIGHT-5),y:clamp(t.y+t.vy*.22,TOP+5,BOTTOM-5),playerId:t.id};
-      kick(g,p,target,'pass',clamp(d/290,.72,1.23),false);
+      kick(g,p,target,'pass',clamp(d/290,.72,1.23),dangerZone&&best.obstruction>.55);
       if(t.id===g.userId&&g.requestPassUntil>g.second){g.requestPassUntil=0;log(g,null,'Партнер отдал вам пас: мяч летит по полю','qte');}
+      return;
+    }
+    if(dangerZone&&pressure<125){
+      kick(g,p,{x:clamp(p.x+dir*345,LEFT+35,RIGHT-35),y:clamp(H/2+(g.rand()-.5)*140,TOP+25,BOTTOM-25)},'pass',1.18,true);
+      log(g,null,'Защитник выносит мяч из-под прессинга','normal');
       return;
     }
     // Dribbling is a sustained on-pitch run, not an event log entry.
@@ -585,7 +635,8 @@
   return {createGame,step,userChoice,setTactic,requestPass,requestPress,forcePractice,summary,constants:{W,H,LEFT,RIGHT,TOP,BOTTOM,GOAL_TOP,GOAL_BOTTOM},_internals:{giveBall,kick,attemptTackle,card,log}};
 });
 
-/* ONE / FOOTBALL 0.4 UI — tactical movement and ball motion remain live during QTE. */
+
+/* ONE / FOOTBALL 0.5 UI — tactical movement and ball motion remain live during QTE. */
 (function(){
 'use strict';
 const E=window.FootballEngine, C=E.constants;
